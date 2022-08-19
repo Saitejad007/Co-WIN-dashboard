@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161625;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1110px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  padding-left: 25px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.website-title {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #2cc6c6;
+  font-weight: 500;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: 500;
+  align-self: flex-start;
+  padding-left: 35px;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-img {
+  width: 500px;
+  margin-top: 40px;
+}
+
+.error-msg {
+  font-family: 'Bree Serif';
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.loading-view {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
